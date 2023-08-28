@@ -1,10 +1,7 @@
 import streamlit as st
 import requests
-from PIL import Image
 
-im = Image.open('/home/fll_data_bata/code/Franloplam/Cat_Final/cat-face-emoji-2048x1821-x3kf878r.png')
-
-st.set_page_config(page_title="Prrfesor App",page_icon=im)
+st.set_page_config(page_title="Prrfesor App")
 
 st.markdown(
     f"""
