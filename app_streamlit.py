@@ -77,5 +77,5 @@ if uploaded_file is not None:
 st.markdown("<hr>", unsafe_allow_html=True)
 
 sample_audio_link = "https://github.com/Franloplam/Prrfesor/blob/master/B_CAN01_EU_FN_GIA01_1SEQ1.wav"
-st.markdown("**Download the sample audio, save it, and use it to test the app**")
+st.markdown("""**Click the link below. On Github click on 'view raw' to download the sample audio. Use it to test the app**""")
 st.markdown(f"**[Sample Audio]({sample_audio_link})**")
